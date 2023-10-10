@@ -9,6 +9,7 @@
     <link href="src/css/style.css" rel="stylesheet">
     <script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script>
     <script src="https://wow.zamimg.com/js/tooltips.js"></script>
+    <script>const wowhead_tooltips = {"colorlinks": true, "iconizelinks": true, "renamelinks": true, "hide": {"droppedby": true, "dropchance": true, "sellprice": true, }}</script>
 </head>
 
 <body>
@@ -34,7 +35,7 @@
                     # TODO(@gciftci) content-boxes
                     #  [ ] populate
                 -->
-                <ul class="nav nav-pills align-bottom justify-content-center mt-3" id="myTab" role="tablist">
+                <ul class="nav nav-pills align-bottom justify-content-center mt-3 mb-3" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
                             data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
@@ -88,16 +89,13 @@
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
-                        tabindex="0">.</div>
+                        tabindex="0"></div>
                     <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
-                        tabindex="0">.dr
-                    </div>
+                        tabindex="0"></div>
                     <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
-                        tabindex="0">.hun
-                    </div>
+                        tabindex="0"></div>
                     <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
-                        tabindex="0">.ma
-                    </div>
+                        tabindex="0"></div>
                 </div>
             </div>
             <!--
@@ -109,7 +107,9 @@
                 <!-- Row 1: Head and Hands -->
                 <div class="row">
                     <div class="col-6 text-start">
-                        <a href="#" data-wowhead="item=22438" data-wh-icon-size="large"></a>
+                        <a href="https://wowhead.com/wotlk/item=25697&gems=23121" class="q3"
+                            data-wowhead="gems=23121&amp;ench=2647&amp;pcs=25695:25696:25697" data-wh-icon-size="large"
+                            target="_blank">[Felstalker Bracers]</a>
                     </div>
                     <div class="col-6 text-end">
                         <small class="align-top">Hands</small>
