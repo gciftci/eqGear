@@ -1,0 +1,38 @@
+  .flex-container {
+    height:100%;
+    display:flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -webkit-align-content: stretch;
+    align-content: stretch;
+}
+
+  .flex-container > div{
+    background: #ffecb3;
+  }
+
+
+  .item1 {
+    -webkit-flex: 1;
+    flex:1;
+    position:relative;
+  }
+
+  .item2 {
+    -webkit-flex: 1;
+    flex:1;
+    position:relative;
+  }
+
+  .item3 {
+    -webkit-flex: 1;
+    flex:1;
+    position:relative;
+  }
+
+  .item4 {
+    -webkit-flex: 1;
+    flex:1;
+    position:relative;
+  }

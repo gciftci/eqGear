@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="src/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--
+        # TODO(@gciftci) navbar
+        #  [ ] populate
+    -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="navbar-brand" href="#">eqGear</div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+                <div class="navbar-light" href="#">GitHub</div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <!--
+                    # TODO(@gciftci) content-boxes
+                    #  [ ] populate
+                -->
+                <ul class="nav nav-pills align-bottom justify-content-center mt-3" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                            data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                            aria-selected="true"><img src="res/icons/class/classicon_deathknight.jpg" /></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                            aria-selected="false"><img src="res/icons/class/classicon_druid.jpg" /></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                            aria-selected="false"><img src="res/icons/class/classicon_hunter.jpg" /></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                            aria-selected="false"><img src="res/icons/class/classicon_mage.jpg" /></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                            aria-selected="false"><img src="res/icons/class/classicon_paladin.jpg" /></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                            aria-selected="false"><img src="res/icons/class/classicon_priest.jpg" /></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                            aria-selected="false"><img src="res/icons/class/classicon_rogue.jpg" /></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                            aria-selected="false"><img src="res/icons/class/classicon_shaman.jpg" /></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                            aria-selected="false"><img src="res/icons/class/classicon_warlock.jpg" /></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                            aria-selected="false"><img src="res/icons/class/classicon_warrior.jpg" /></button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                        tabindex="0">.</div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                        tabindex="0">.dr
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                        tabindex="0">.hun
+                    </div>
+                    <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
+                        tabindex="0">.ma
+                    </div>
+                </div>
+            </div>
+            <!--
+                # TODO(@gciftci) gearset
+                #  [ ] populate
+            -->
+
+            <div class="col-3">
+                <!-- Row 1: Head and Hands -->
+                <div class="row" style="background-color: blueviolet;">
+                    <div class="col-6 text-start">
+                        <img src="res/icons/item/inventoryslot_head.jpg" class="img-fluid" alt="Head">
+                        <small class="align-top">Head</small>
+                    </div>
+                    <div class="col-6 text-end">
+                        <small class="align-top">Hands</small>
+                        <img src="res/icons/item/inventoryslot_hands.jpg" class="img-fluid" alt="Hands">
+                    </div>
+                </div>
+                <!-- Row 2: Neck and Shoulders -->
+                <div class="row" style="background-color: blueviolet;">
+                    <div class="col-6 text-start">
+                        <img src="res/icons/item/inventoryslot_neck.jpg" class="img-fluid" alt="Neck">
+                        <small class="align-top">Neck</small>
+                    </div>
+                    <div class="col-6 text-end">
+                        <small class="align-top">Shoulders</small>
+                        <img src="res/icons/item/inventoryslot_shoulder.jpg" class="img-fluid" alt="Shoulders">
+                    </div>
+                </div>
+                <!-- Row 3: Chest and Feet -->
+                <div class="row" style="background-color: blueviolet;">
+                    <div class="col-6 text-start">
+                        <img src="res/icons/item/inventoryslot_chest.jpg" class="img-fluid" alt="Chest">
+                        <small class="align-top">Chest</small>
+                    </div>
+                    <div class="col-6 text-end">
+                        <small class="align-top">Feet</small>
+                        <img src="res/icons/item/inventoryslot_feet.jpg" class="img-fluid" alt="Feet">
+                    </div>
+                </div>
+                <!-- Row 4: Finger and Legs -->
+                <div class="row" style="background-color: blueviolet;">
+                    <div class="col-6 text-start">
+                        <img src="res/icons/item/inventoryslot_finger.jpg" class="img-fluid" alt="Finger">
+                        <small class="align-top">Finger</small>
+                    </div>
+                    <div class="col-6 text-end">
+                        <small class="align-top">Legs</small>
+                        <img src="res/icons/item/inventoryslot_legs.jpg" class="img-fluid" alt="Legs">
+                    </div>
+                </div>
+                <!-- Row 5: Mainhand and Offhand -->
+                <div class="row" style="background-color: blueviolet;">
+                    <div class="col-6 text-start">
+                        <img src="res/icons/item/inventoryslot_mainhand.jpg" class="img-fluid" alt="Mainhand">
+                        <small class="align-top">Mainhand</small>
+                    </div>
+                    <div class="col-6 text-end">
+                        <small class="align-top">Offhand</small>
+                        <img src="res/icons/item/inventoryslot_offhand.jpg" class="img-fluid" alt="Offhand">
+                    </div>
+                </div>
+                <!-- Row 6: Relic and Trinket -->
+                <div class="row" style="background-color: blueviolet;">
+                    <div class="col-6 text-start">
+                        <img src="res/icons/item/inventoryslot_relic.jpg" class="img-fluid" alt="Relic">
+                        <small class="align-top">Relic</small>
+                    </div>
+                    <div class="col-6 text-end">
+                        <small class="align-top">Trinket</small>
+                        <img src="res/icons/item/inventoryslot_trinket.jpg" class="img-fluid" alt="Trinket">
+                    </div>
+                </div>
+                <!-- Row 7: Waist and Wrists -->
+                <div class="row" style="background-color: blueviolet;">
+                    <div class="col-6 text-start">
+                        <img src="res/icons/item/inventoryslot_waist.jpg" class="img-fluid" alt="Waist">
+                        <small class="align-top">Waist</small>
+                    </div>
+                    <div class="col-6 text-end">
+                        <small class="align-top">Wrists</small>
+                        <img src="res/icons/item/inventoryslot_wrists.jpg" class="img-fluid" alt="Wrists">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3" style="background-color: blue;">
+
+            </div>
+            <div class="col-3" style="background-color: blueviolet;">
+
+            </div>
+            <div class="col-3" style="background-color: brown;">
+
+            </div>
+        </div>
+        <script src="src/js/jquery.min.js"></script>
+        <script src="src/js/bootstrap.min.js"></script>
+        <script src="src/js/scripts.js"></script>
+    </div>
+
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/scripts.js"></script>
+</body>
+
+</html>
