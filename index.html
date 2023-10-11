@@ -15,6 +15,8 @@
     <link href="src/css/style.css" rel="stylesheet">
 
     <script src="src/js/tooltip.js"></script>
+    <script src="src/js/dropdown.js"></script>
+    <script src="src/js/main.js"></script>
     <script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script>
     <script>const wowhead_tooltips = {
             "colorlinks": true, "iconizelinks": true, "renamelinks": true, "hide": {
@@ -56,31 +58,46 @@
 
     <!-- Content -->
     <main class="container" style="margin-top: 8vh;height: 92vh;border: 1px solid red;">
-        <h2>(WOTLK) Most equipped items!</h2>
-        <!-- Select -->
-        <!-- With radio buttons -->
-        <details role="list">
-            <summary aria-haspopup="listbox">Select Class...</summary>
-            <ul role="listbox">
-                <li>
-                    <a><img src="res/icons/class/classicon_deathknight.jpg" height="36" width="36"> DK</a>
-                </li>
-                <li>
-                    <label for="medium">
-                        <input type="radio" id="medium" name="size" value="medium">
-                        Medium
-                    </label>
-                </li>
-                <li>
-                    <label for="large">
-                        <input type="radio" id="large" name="size" value="large">
-                        Large
-                    </label>
-                </li>
-            </ul>
-        </details>
-
-
+        <h2>Showing most equipped Items</h2>
+        <!-- Grid: 3 Selects -->
+        <div class="grid">
+            <!-- Select Class-->
+            <div class="dropdown">
+                <button onclick="dropdown_showcontent()" class="dropbtn">Dropdown</button>
+                <div id="classes" class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <!-- ./ Select Class-->
+            <!-- Select Specc-->
+            <div>
+                <details role="list">
+                    <summary aria-haspopup="listbox">Select Specc...</summary>
+                    <ul role="listbox">
+                        <li>
+                            <a><img src="res/icons/class/classicon_deathknight.jpg" height="36" width="36"> DK</a>
+                        </li>
+                    </ul>
+                </details>
+            </div>
+            <!-- ./ Select Specc-->
+            <!-- Select Boss-->
+            <div>
+                <details role="list">
+                    <summary aria-haspopup="listbox">Select Boss...</summary>
+                    <ul role="listbox">
+                        <li>
+                            <a><img src="res/icons/class/classicon_deathknight.jpg" height="36" width="36"> DK</a>
+                        </li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+        <!-- ./ Select Boss-->
+        <!-- ./ Grid: 3 Selects -->
+        <h3>Items</h3>
         <!-- Accordion -->
         <details>
             <summary>Accordion 1</summary>
@@ -88,7 +105,7 @@
         </details>
         <details>
             <summary>Accordion 2</summary>
-            <p>Text of Accordion 2...</p>
+            <p>Text of Accordion 2.sd..</p>
 
         </details>
         <!-- ./ Accordion -->
